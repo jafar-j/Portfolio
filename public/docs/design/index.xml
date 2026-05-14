@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on My portfolio</title>
+    <link>http://localhost:1313/hugo-book/docs/design/</link>
+    <description>Recent content in Design on My portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright>
+    <atom:link href="http://localhost:1313/hugo-book/docs/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Needfinding</title>
+      <link>http://localhost:1313/hugo-book/docs/design/needfinding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/design/needfinding/</guid>
+      <description>&lt;h1 id=&#34;needfinding&#34;&gt;Needfinding&lt;a class=&#34;anchor&#34; href=&#34;#needfinding&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Ideation</title>
+      <link>http://localhost:1313/hugo-book/docs/design/ideation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/design/ideation/</guid>
+      <description>&lt;h1 id=&#34;ideation&#34;&gt;Ideation&lt;a class=&#34;anchor&#34; href=&#34;#ideation&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Prototyping</title>
+      <link>http://localhost:1313/hugo-book/docs/design/prototyping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/design/prototyping/</guid>
+      <description>&lt;h1 id=&#34;prototyping&#34;&gt;Prototyping&lt;a class=&#34;anchor&#34; href=&#34;#prototyping&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Evaluation</title>
+      <link>http://localhost:1313/hugo-book/docs/design/evaluation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/design/evaluation/</guid>
+      <description>&lt;h1 id=&#34;evaluation&#34;&gt;Evaluation&lt;a class=&#34;anchor&#34; href=&#34;#evaluation&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+  </channel>
+</rss>

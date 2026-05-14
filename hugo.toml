@@ -5,7 +5,7 @@
 # --gc -M -s exampleSite --themesDir ../.. -b http://127.0.0.1/
 
 baseURL = 'http://0.0.0.0:1313/hugo-book/'
-title = 'My portfolio'
+title = "Jafar's Portfolio"
 theme = 'hugo-book'
 
 copyright = '[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)'
@@ -54,26 +54,15 @@ contentDir = 'content'
   url = 'https://github.com/alex-shpak/hugo-book/'
   weight = 3
 
-# [[menu.before]]
-[[menu.after]]
-  name = 'Github'
-  url = 'https://github.com/alex-shpak/hugo-book/'
-  weight = 10
-
-[[menu.after]]
-  name = 'Hugo Themes'
-  url = 'https://themes.gohugo.io/themes/hugo-book/'
-  weight = 20
-
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme = 'light'
+  BookTheme = 'dark'
 
   # (Optional, default none) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled globally with markup.tableOfContents setting.
   # You can also specify this parameter per page in front matter.
-  # BookToC = true
+  BookToC = false
 
   # (Optional, default favicon.png) Set the path to a favicon file.
   # If the favicon is /static/favicon.png then the path would be favicon.png
@@ -100,7 +89,7 @@ contentDir = 'content'
   # (Optional, default none) Set template for edit page link.
   # When set enabled 'Edit this page' link in the footer of the page.
   # Param is executed as template using .Site, .Page and .Path as context.
-  BookEditLink = '{{ .Site.Params.BookRepo }}/edit/main/exampleSite/{{ .Path }}'
+  BookEditLink = ''
 
   # (Optional, default 'January 2, 2006') Configure the date format used on the pages
   # - In git information
@@ -111,7 +100,7 @@ contentDir = 'content'
   # (Optional, default true) Enables search function with fuse.js.,
   # Index is built on fly, therefore it might slowdown your website.
   # Configuration for indexing can be adjusted in i18n folder per language.
-  BookSearch = true
+  BookSearch = false
 
   # (Optional, default true) Enables comments template on pages
   # By default partials/docs/comments.html includes Disqus template

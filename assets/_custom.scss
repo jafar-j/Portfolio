@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+@mixin theme-dark {
+  --body-background: #202b36;
+  --body-background-tint: none;
+  --body-font-color: #dce3eb;
+
+  --color-link: #4a90e2;
+  --color-visited-link: #8fb8f0;
+
+  --icon-filter: brightness(0) invert(1);
+
+  --gray-100: #293646;
+  --gray-200: #405064;
+  --gray-500: #9aa8b8;
+
+  @include accent("default", #9aa8b8);
+  @include accent("note", #4a90e2);
+  @include accent("tip", #6fbf9b);
+  @include accent("important", #a78bfa);
+  @include accent("warning", #f3b35f);
+  @include accent("caution", #f07178);
+  @include accent("info", #4a90e2);
+  @include accent("success", #6fbf9b);
+  @include accent("danger", #f07178);
+}
+
+.book-menu {
+  font-size: 1rem;
+  border-inline-end: 1px solid #405064;
+  background: #293646;
+
+  .book-brand {
+    font-size: 1.55rem;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 0.9rem;
+  }
+
+  .book-menu-content {
+    background: #293646;
+    padding: 1.25rem 1.15rem;
+  }
+
+  nav a {
+    padding: 0.32rem 0;
+    line-height: 1.25;
+  }
+
+  nav ul ul {
+    padding-inline-start: 1.15rem;
+  }
+
+  .book-section-flat,
+  nav > ul > li {
+    margin-bottom: 0.18rem;
+  }
+
+  a.active {
+    font-weight: 700;
+  }
+
+  nav > ul > li > a {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--body-font-color);
+    cursor: default;
+  }
+
+  nav > ul > li > ul {
+    padding-inline-start: 2.1rem;
+
+    > li > a {
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    > li > ul {
+      padding-inline-start: 1.55rem;
+
+      a {
+        font-size: 0.875rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+html {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  letter-spacing: 0;
+}
+
+.book-page {
+  background: #202b36;
+}
+
+.markdown {
+  color: #dce3eb;
+
+  h1,
+  h2,
+  h3 {
+    color: #f3f7fb;
+    font-weight: 700;
+  }
+
+  a[href] {
+    color: #4a90e2;
+    text-underline-offset: 0.2em;
+  }
+
+  code,
+  pre,
+  .highlight {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  }
+
+  code {
+    background: #2c3a4a;
+    border-color: #46576b;
+    color: #e4edf7;
+  }
+
+  pre {
+    background: #293646;
+    border-color: #46576b;
+  }
+
+  blockquote {
+    background: #293646;
+    border-inline-start-color: #4a90e2;
+  }
+}

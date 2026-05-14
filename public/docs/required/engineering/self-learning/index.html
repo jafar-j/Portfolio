@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/hugo-book/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-book/livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Self-Learning# Sample# Slides 2 and 3 of my group’s SQL tutorial presentation, shared with the group.
+Link to group presentation: https://docs.google.com/presentation/d/1FWnSvWNzKjTJMFIj1lAxnn-R3CQxXbgFXCxQZ8PdZCQ/edit?usp=sharing
+Contributions# I wrote and presented slides 2 and 3, covering what SQL and SQLite are and how to create and populate a table. I also self-learned Python throughout the project to build the backend scraper, as I had not worked with Python before.
+Description# My tutorial slides covered SQL and SQLite: what they are, how they work, and how to get started using them. Structured Query Language is a language used to store, retrieve, and manipulate data stored in relational databases. SQLite is a lightweight, serverless version of SQL that stores the entire database in a single local file, making it easy to set up and run without any server infrastructure. In our project, we used SQLite to store all user data and scraped event data, and to link users to events through shared interests. Before this project I had little experience with SQL, so this was my first time learning how to apply it with real data. I also had to self-learn Python from scratch to write the scraping and database filling code that made up my core contribution to the backend.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/hugo-book/docs/required/engineering/self-learning/">
+  <meta property="og:site_name" content="Jafar&#39;s Portfolio">
+  <meta property="og:title" content="Self-Learning">
+  <meta property="og:description" content="Self-Learning# Sample# Slides 2 and 3 of my group’s SQL tutorial presentation, shared with the group.
+Link to group presentation: https://docs.google.com/presentation/d/1FWnSvWNzKjTJMFIj1lAxnn-R3CQxXbgFXCxQZ8PdZCQ/edit?usp=sharing
+Contributions# I wrote and presented slides 2 and 3, covering what SQL and SQLite are and how to create and populate a table. I also self-learned Python throughout the project to build the backend scraper, as I had not worked with Python before.
+Description# My tutorial slides covered SQL and SQLite: what they are, how they work, and how to get started using them. Structured Query Language is a language used to store, retrieve, and manipulate data stored in relational databases. SQLite is a lightweight, serverless version of SQL that stores the entire database in a single local file, making it easy to set up and run without any server infrastructure. In our project, we used SQLite to store all user data and scraped event data, and to link users to events through shared interests. Before this project I had little experience with SQL, so this was my first time learning how to apply it with real data. I also had to self-learn Python from scratch to write the scraping and database filling code that made up my core contribution to the backend.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+
+
+  <meta itemprop="name" content="Self-Learning">
+  <meta itemprop="description" content="Self-Learning# Sample# Slides 2 and 3 of my group’s SQL tutorial presentation, shared with the group.
+Link to group presentation: https://docs.google.com/presentation/d/1FWnSvWNzKjTJMFIj1lAxnn-R3CQxXbgFXCxQZ8PdZCQ/edit?usp=sharing
+Contributions# I wrote and presented slides 2 and 3, covering what SQL and SQLite are and how to create and populate a table. I also self-learned Python throughout the project to build the backend scraper, as I had not worked with Python before.
+Description# My tutorial slides covered SQL and SQLite: what they are, how they work, and how to get started using them. Structured Query Language is a language used to store, retrieve, and manipulate data stored in relational databases. SQLite is a lightweight, serverless version of SQL that stores the entire database in a single local file, making it easy to set up and run without any server infrastructure. In our project, we used SQLite to store all user data and scraped event data, and to link users to events through shared interests. Before this project I had little experience with SQL, so this was my first time learning how to apply it with real data. I also had to self-learn Python from scratch to write the scraping and database filling code that made up my core contribution to the backend.">
+  <meta itemprop="wordCount" content="393">
+
+<title>Self-Learning | Jafar&#39;s Portfolio</title>
+<link rel="icon" href="/hugo-book/favicon.png" >
+<link rel="manifest" href="/hugo-book/manifest.json">
+<link rel="canonical" href="http://localhost:1313/hugo-book/docs/required/engineering/self-learning/">
+<link rel="stylesheet" href="/hugo-book/book.min.765d21810b9b2cd2a1694752026da1f9282c504e7ae862b8c2eca7063f8349ba.css" integrity="sha256-dl0hgQubLNKhaUdSAm2h&#43;SgsUE566GK4wuynBj&#43;DSbo=" crossorigin="anonymous">
+
+
+  <script defer src="/hugo-book/sw.min.b360770147212804e7e1d018a0a381039fc15d15bcef077b10e92b395969f8b4.js" integrity="sha256-s2B3AUchKATn4dAYoKOBA5/BXRW87wd7EOkrOVlp&#43;LQ=" crossorigin="anonymous"></script>
+
+
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-docs">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/hugo-book/"><span>Jafar&#39;s Portfolio</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Required Competencies</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Development</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/development/abstraction/" class="">
+      Medium-Scale Abstraction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/development/architecture/" class="">
+      Medium-Scale Architecture</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Verification</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/verification/testing-strategies/" class="">
+      Testing Strategies</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/verification/testing-infrastructure/" class="">
+      Testing Infrastructure</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Design</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/design/needfinding/" class="">
+      Needfinding</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/design/ideation/" class="">
+      Ideation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/design/prototyping/" class="">
+      Prototyping</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/design/evaluation/" class="">
+      Evaluation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Engineering</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/engineering/infrastructure/" class="">
+      Infrastructure</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/engineering/self-learning/" class="active">
+      Self-Learning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/engineering/process/" class="">
+      Process</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/engineering/collaboration/" class="">
+      Collaboration</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Advanced Competencies</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Development</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/development/domain-architecture/" class="">
+      Domain-Specific Architecture</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/development/security/" class="">
+      Security</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Verification</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/verification/testing-technologies/" class="">
+      Testing Technologies</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Design</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/design/ui-design/" class="">
+      User Interface Design</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/design/accessible-design/" class="">
+      Accessible Design</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Engineering</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/engineering/quality/" class="">
+      Quality</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/hugo-book/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Self-Learning</h3>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="self-learning">Self-Learning<a class="anchor" href="#self-learning">#</a></h1>
+<h2 id="sample">Sample<a class="anchor" href="#sample">#</a></h2>
+<p>Slides 2 and 3 of my group’s SQL tutorial presentation, shared with the group.</p>
+<p>Link to group presentation: <a href="https://docs.google.com/presentation/d/1FWnSvWNzKjTJMFIj1lAxnn-R3CQxXbgFXCxQZ8PdZCQ/edit?usp=sharing">https://docs.google.com/presentation/d/1FWnSvWNzKjTJMFIj1lAxnn-R3CQxXbgFXCxQZ8PdZCQ/edit?usp=sharing</a></p>
+<h2 id="contributions">Contributions<a class="anchor" href="#contributions">#</a></h2>
+<p>I wrote and presented slides 2 and 3, covering what SQL and SQLite are and how to create and populate a table. I also self-learned Python throughout the project to build the backend scraper, as I had not worked with Python before.</p>
+<h2 id="description">Description<a class="anchor" href="#description">#</a></h2>
+<p>My tutorial slides covered SQL and SQLite: what they are, how they work, and how to get started using them. Structured Query Language is a language used to store, retrieve, and manipulate data stored in relational databases. SQLite is a lightweight, serverless version of SQL that stores the entire database in a single local file, making it easy to set up and run without any server infrastructure. In our project, we used SQLite to store all user data and scraped event data, and to link users to events through shared interests. Before this project I had little experience with SQL, so this was my first time learning how to apply it with real data. I also had to self-learn Python from scratch to write the scraping and database filling code that made up my core contribution to the backend.</p>
+<p>SQL was essential to the project. Its main strength in our setup was that it required no server, so anyone could run the project on their computer with a simple setup and test their changes locally. A weakness was that SQL errors were hard to track down and debug, especially when the database became more complex. If we were handling significantly more data in the future, we would likely need to move away from SQLite to a server-based database system. One sticking point that came up during development was that multiple teammates were all writing code that interacted with the database at the same time. This resulted in duplicate table initializations, data clears for testing, and data insertions. So when people pushed their changes, the logic for clearing and reinitializing tables would clash, causing errors for other teammates. This is something worth knowing before adopting SQLite on a team project. It works great for a single developer, but once multiple people are handling data in different parts of the codebase, since there is no server coordinating changes, one will likely run into conflicts that a server-based database would avoid.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/hugo-book/docs/required/engineering/infrastructure/" class="flex align-center">
+        <img src="/hugo-book/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Infrastructure</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/hugo-book/docs/required/engineering/process/" class="flex align-center">
+        <span>Process</span>
+        <img src="/hugo-book/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+  <div class="book-copyright flex justify-center">
+    <small>Jafar&#39;s Portfolio - <a href="https://creativecommons.org/licenses/by/4.0/legalcode">© CC BY 4.0</a></small>
+
+  </div>
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

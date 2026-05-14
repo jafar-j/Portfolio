@@ -1,3 +1,0 @@
----
-title: "Medium-Scale Abstraction"
----

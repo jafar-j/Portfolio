@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/hugo-book/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-book/livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Medium-Scale Architecture# Sample# server/api/scraper.py, server/api/db_functions.py, server/api/sql_init.py
+Contributions# I designed and implemented the scraping layer, initialized the events table in sql_init.py, and wrote the insert_events_into_db function in db_functions.py. The rest of the database layer and the REST API were built by teammates.
+Description# The backend consists of a layered architecture, where each layer has a separate responsibility in the overall project. The scraping layer, built in scraper.py, fetches raw event data from Grinnell’s LiveWhale JSON API and transforms it into structured event dictionaries. From there, the events table defined in sql_init.py and the insert_events_into_db function in db_functions.py handle putting those events into the SQL database. There is a REST API layer built by my teammates which the frontend talks to via HTTP requests. The frontend and backend therefore do not interact directly, as they are connected through the REST API, keeping implementations separated on each side. The frontend focuses on user interaction and displaying events, while the backend handles event scraping, data processing, and storage. This separation means each side can be developed independently without affecting the other.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/hugo-book/docs/required/development/architecture/">
+  <meta property="og:site_name" content="Jafar&#39;s Portfolio">
+  <meta property="og:title" content="Medium-Scale Architecture">
+  <meta property="og:description" content="Medium-Scale Architecture# Sample# server/api/scraper.py, server/api/db_functions.py, server/api/sql_init.py
+Contributions# I designed and implemented the scraping layer, initialized the events table in sql_init.py, and wrote the insert_events_into_db function in db_functions.py. The rest of the database layer and the REST API were built by teammates.
+Description# The backend consists of a layered architecture, where each layer has a separate responsibility in the overall project. The scraping layer, built in scraper.py, fetches raw event data from Grinnell’s LiveWhale JSON API and transforms it into structured event dictionaries. From there, the events table defined in sql_init.py and the insert_events_into_db function in db_functions.py handle putting those events into the SQL database. There is a REST API layer built by my teammates which the frontend talks to via HTTP requests. The frontend and backend therefore do not interact directly, as they are connected through the REST API, keeping implementations separated on each side. The frontend focuses on user interaction and displaying events, while the backend handles event scraping, data processing, and storage. This separation means each side can be developed independently without affecting the other.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+
+
+  <meta itemprop="name" content="Medium-Scale Architecture">
+  <meta itemprop="description" content="Medium-Scale Architecture# Sample# server/api/scraper.py, server/api/db_functions.py, server/api/sql_init.py
+Contributions# I designed and implemented the scraping layer, initialized the events table in sql_init.py, and wrote the insert_events_into_db function in db_functions.py. The rest of the database layer and the REST API were built by teammates.
+Description# The backend consists of a layered architecture, where each layer has a separate responsibility in the overall project. The scraping layer, built in scraper.py, fetches raw event data from Grinnell’s LiveWhale JSON API and transforms it into structured event dictionaries. From there, the events table defined in sql_init.py and the insert_events_into_db function in db_functions.py handle putting those events into the SQL database. There is a REST API layer built by my teammates which the frontend talks to via HTTP requests. The frontend and backend therefore do not interact directly, as they are connected through the REST API, keeping implementations separated on each side. The frontend focuses on user interaction and displaying events, while the backend handles event scraping, data processing, and storage. This separation means each side can be developed independently without affecting the other.">
+  <meta itemprop="wordCount" content="240">
+
+<title>Medium-Scale Architecture | Jafar&#39;s Portfolio</title>
+<link rel="icon" href="/hugo-book/favicon.png" >
+<link rel="manifest" href="/hugo-book/manifest.json">
+<link rel="canonical" href="http://localhost:1313/hugo-book/docs/required/development/architecture/">
+<link rel="stylesheet" href="/hugo-book/book.min.765d21810b9b2cd2a1694752026da1f9282c504e7ae862b8c2eca7063f8349ba.css" integrity="sha256-dl0hgQubLNKhaUdSAm2h&#43;SgsUE566GK4wuynBj&#43;DSbo=" crossorigin="anonymous">
+
+
+  <script defer src="/hugo-book/sw.min.b360770147212804e7e1d018a0a381039fc15d15bcef077b10e92b395969f8b4.js" integrity="sha256-s2B3AUchKATn4dAYoKOBA5/BXRW87wd7EOkrOVlp&#43;LQ=" crossorigin="anonymous"></script>
+
+
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-docs">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/hugo-book/"><span>Jafar&#39;s Portfolio</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Required Competencies</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Development</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/development/abstraction/" class="">
+      Medium-Scale Abstraction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/development/architecture/" class="active">
+      Medium-Scale Architecture</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Verification</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/verification/testing-strategies/" class="">
+      Testing Strategies</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/verification/testing-infrastructure/" class="">
+      Testing Infrastructure</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Design</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/design/needfinding/" class="">
+      Needfinding</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/design/ideation/" class="">
+      Ideation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/design/prototyping/" class="">
+      Prototyping</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/design/evaluation/" class="">
+      Evaluation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Engineering</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/engineering/infrastructure/" class="">
+      Infrastructure</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/engineering/self-learning/" class="">
+      Self-Learning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/engineering/process/" class="">
+      Process</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/required/engineering/collaboration/" class="">
+      Collaboration</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Advanced Competencies</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Development</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/development/domain-architecture/" class="">
+      Domain-Specific Architecture</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/development/security/" class="">
+      Security</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Verification</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/verification/testing-technologies/" class="">
+      Testing Technologies</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Design</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/design/ui-design/" class="">
+      User Interface Design</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/design/accessible-design/" class="">
+      Accessible Design</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Engineering</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hugo-book/docs/advanced/engineering/quality/" class="">
+      Quality</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/hugo-book/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Medium-Scale Architecture</h3>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="medium-scale-architecture">Medium-Scale Architecture<a class="anchor" href="#medium-scale-architecture">#</a></h1>
+<h2 id="sample">Sample<a class="anchor" href="#sample">#</a></h2>
+<p><code>server/api/scraper.py</code>, <code>server/api/db_functions.py</code>, <code>server/api/sql_init.py</code></p>
+<h2 id="contributions">Contributions<a class="anchor" href="#contributions">#</a></h2>
+<p>I designed and implemented the scraping layer, initialized the events table in <code>sql_init.py</code>, and wrote the <code>insert_events_into_db</code> function in <code>db_functions.py</code>. The rest of the database layer and the REST API were built by teammates.</p>
+<h2 id="description">Description<a class="anchor" href="#description">#</a></h2>
+<p>The backend consists of a layered architecture, where each layer has a separate responsibility in the overall project. The scraping layer, built in scraper.py, fetches raw event data from Grinnell&rsquo;s LiveWhale JSON API and transforms it into structured event dictionaries. From there, the events table defined in sql_init.py and the insert_events_into_db function in db_functions.py handle putting those events into the SQL database. There is a REST API layer built by my teammates which the frontend talks to via HTTP requests. The frontend and backend therefore do not interact directly, as they are connected through the REST API, keeping implementations separated on each side. The frontend focuses on user interaction and displaying events, while the backend handles event scraping, data processing, and storage. This separation means each side can be developed independently without affecting the other.</p>
+<p>In the backend, the scraping relies on the “requests” library to fetch data from the JSON API and “BeautifulSoup” for parsing HTML within the fields of the events fetched. The storage layer uses sqlite3 to manage the database. The REST API layer is built with FastAPI and Pydantic, and the frontend is built with React and TypeScript while using Supabase for user authentication.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/hugo-book/docs/required/development/abstraction/" class="flex align-center">
+        <img src="/hugo-book/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Medium-Scale Abstraction</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/hugo-book/docs/required/verification/testing-strategies/" class="flex align-center">
+        <span>Testing Strategies</span>
+        <img src="/hugo-book/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+  <div class="book-copyright flex justify-center">
+    <small>Jafar&#39;s Portfolio - <a href="https://creativecommons.org/licenses/by/4.0/legalcode">© CC BY 4.0</a></small>
+
+  </div>
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

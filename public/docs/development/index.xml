@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on My portfolio</title>
+    <link>http://localhost:1313/hugo-book/docs/development/</link>
+    <description>Recent content in Development on My portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright>
+    <atom:link href="http://localhost:1313/hugo-book/docs/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Medium-Scale Abstraction</title>
+      <link>http://localhost:1313/hugo-book/docs/development/abstraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/development/abstraction/</guid>
+      <description>&lt;h1 id=&#34;medium-scale-abstraction&#34;&gt;Medium-Scale Abstraction&lt;a class=&#34;anchor&#34; href=&#34;#medium-scale-abstraction&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Medium-Scale Architecture</title>
+      <link>http://localhost:1313/hugo-book/docs/development/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/development/architecture/</guid>
+      <description>&lt;h1 id=&#34;medium-scale-architecture&#34;&gt;Medium-Scale Architecture&lt;a class=&#34;anchor&#34; href=&#34;#medium-scale-architecture&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+  </channel>
+</rss>

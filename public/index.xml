@@ -1,1 +1,138 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My portfolio</title><link>http://localhost:1313/hugo-book/</link><description>Recent content on My portfolio</description><generator>Hugo</generator><language>en</language><copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright><atom:link href="http://localhost:1313/hugo-book/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jafar&#39;s Portfolio</title>
+    <link>http://localhost:1313/hugo-book/</link>
+    <description>Recent content on Jafar&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright>
+    <atom:link href="http://localhost:1313/hugo-book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domain-Specific Architecture</title>
+      <link>http://localhost:1313/hugo-book/docs/advanced/development/domain-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/advanced/development/domain-architecture/</guid>
+      <description>&lt;h1 id=&#34;domain-specific-architecture&#34;&gt;Domain-Specific Architecture&lt;a class=&#34;anchor&#34; href=&#34;#domain-specific-architecture&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Infrastructure</title>
+      <link>http://localhost:1313/hugo-book/docs/required/engineering/infrastructure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/engineering/infrastructure/</guid>
+      <description>&lt;h1 id=&#34;infrastructure&#34;&gt;Infrastructure&lt;a class=&#34;anchor&#34; href=&#34;#infrastructure&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Medium-Scale Abstraction</title>
+      <link>http://localhost:1313/hugo-book/docs/required/development/abstraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/development/abstraction/</guid>
+      <description>&lt;h1 id=&#34;medium-scale-abstraction&#34;&gt;Medium-Scale Abstraction&lt;a class=&#34;anchor&#34; href=&#34;#medium-scale-abstraction&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Needfinding</title>
+      <link>http://localhost:1313/hugo-book/docs/required/design/needfinding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/design/needfinding/</guid>
+      <description>&lt;h1 id=&#34;needfinding&#34;&gt;Needfinding&lt;a class=&#34;anchor&#34; href=&#34;#needfinding&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;“324 Needfinding questions” and “Personas” documents in the group Google Drive folder, linked in the “team-wiki” repository. Specifically my tab for Needfinding within the “324 Needfinding questions” document.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I participated in developing the Needfinding questions, conducting interviews, and developing the personas alongside my teammates.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;To discover users&amp;rsquo; needs, we conducted interviews with Grinnell students, using a prepared set of questions we sat and wrote together about how they currently find out about campus events and what problems they run into doing so. We interviewed students from different groups on campus so that our findings reflected a broad and accurate picture of campus needs rather than just one type of student experience. For example, I mainly interviewed members of the Swimming &amp;amp; Diving team and International students on campus. The clearest takeaway was that users were not willing to migrate to a new calendar platform. Students were already using tools like Google Calendar or Apple Calendar, and asking them to switch to something new was not something they were open to.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testing Strategies</title>
+      <link>http://localhost:1313/hugo-book/docs/required/verification/testing-strategies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/verification/testing-strategies/</guid>
+      <description>&lt;h1 id=&#34;testing-strategies&#34;&gt;Testing Strategies&lt;a class=&#34;anchor&#34; href=&#34;#testing-strategies&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Ideation</title>
+      <link>http://localhost:1313/hugo-book/docs/required/design/ideation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/design/ideation/</guid>
+      <description>&lt;h1 id=&#34;ideation&#34;&gt;Ideation&lt;a class=&#34;anchor&#34; href=&#34;#ideation&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;App Features&amp;rdquo; document in the group Google Drive, linked in the “team-wiki” repository.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I participated in the ideation discussions with my teammates.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;To come up with solutions, we discussed as a group what was feasible given our technical capabilities and what actually addressed what we heard in our interviews. We talked through different ideas and narrowed them down based on how they solved the problems users described.Needfinding made it clear that students were not willing to move away from the tools they already use. This directly shaped our project, as instead of building a separate calendar app, we designed a system that sends event invites to users&amp;rsquo; existing calendars, thus meeting them where they already are. The decision to move to calendar invites also served to lower the barrier to entry and ease user onboarding, as users wouldn&amp;rsquo;t need to adapt to a new calendar platform, and setup could be kept simple enough that more students would be willing to try it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Medium-Scale Architecture</title>
+      <link>http://localhost:1313/hugo-book/docs/required/development/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/development/architecture/</guid>
+      <description>&lt;h1 id=&#34;medium-scale-architecture&#34;&gt;Medium-Scale Architecture&lt;a class=&#34;anchor&#34; href=&#34;#medium-scale-architecture&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;server/api/scraper.py&lt;/code&gt;, &lt;code&gt;server/api/db_functions.py&lt;/code&gt;, &lt;code&gt;server/api/sql_init.py&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I designed and implemented the scraping layer, initialized the events table in &lt;code&gt;sql_init.py&lt;/code&gt;, and wrote the &lt;code&gt;insert_events_into_db&lt;/code&gt; function in &lt;code&gt;db_functions.py&lt;/code&gt;. The rest of the database layer and the REST API were built by teammates.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The backend consists of a layered architecture, where each layer has a separate responsibility in the overall project. The scraping layer, built in scraper.py, fetches raw event data from Grinnell&amp;rsquo;s LiveWhale JSON API and transforms it into structured event dictionaries. From there, the events table defined in sql_init.py and the insert_events_into_db function in db_functions.py handle putting those events into the SQL database. There is a REST API layer built by my teammates which the frontend talks to via HTTP requests. The frontend and backend therefore do not interact directly, as they are connected through the REST API, keeping implementations separated on each side. The frontend focuses on user interaction and displaying events, while the backend handles event scraping, data processing, and storage. This separation means each side can be developed independently without affecting the other.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/hugo-book/docs/advanced/development/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/advanced/development/security/</guid>
+      <description>&lt;h1 id=&#34;security&#34;&gt;Security&lt;a class=&#34;anchor&#34; href=&#34;#security&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Self-Learning</title>
+      <link>http://localhost:1313/hugo-book/docs/required/engineering/self-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/engineering/self-learning/</guid>
+      <description>&lt;h1 id=&#34;self-learning&#34;&gt;Self-Learning&lt;a class=&#34;anchor&#34; href=&#34;#self-learning&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Slides 2 and 3 of my group’s SQL tutorial presentation, shared with the group.&lt;/p&gt;&#xA;&lt;p&gt;Link to group presentation: &lt;a href=&#34;https://docs.google.com/presentation/d/1FWnSvWNzKjTJMFIj1lAxnn-R3CQxXbgFXCxQZ8PdZCQ/edit?usp=sharing&#34;&gt;https://docs.google.com/presentation/d/1FWnSvWNzKjTJMFIj1lAxnn-R3CQxXbgFXCxQZ8PdZCQ/edit?usp=sharing&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I wrote and presented slides 2 and 3, covering what SQL and SQLite are and how to create and populate a table. I also self-learned Python throughout the project to build the backend scraper, as I had not worked with Python before.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;My tutorial slides covered SQL and SQLite: what they are, how they work, and how to get started using them. Structured Query Language is a language used to store, retrieve, and manipulate data stored in relational databases. SQLite is a lightweight, serverless version of SQL that stores the entire database in a single local file, making it easy to set up and run without any server infrastructure. In our project, we used SQLite to store all user data and scraped event data, and to link users to events through shared interests. Before this project I had little experience with SQL, so this was my first time learning how to apply it with real data. I also had to self-learn Python from scratch to write the scraping and database filling code that made up my core contribution to the backend.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testing Infrastructure</title>
+      <link>http://localhost:1313/hugo-book/docs/required/verification/testing-infrastructure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/verification/testing-infrastructure/</guid>
+      <description>&lt;h1 id=&#34;testing-infrastructure&#34;&gt;Testing Infrastructure&lt;a class=&#34;anchor&#34; href=&#34;#testing-infrastructure&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Process</title>
+      <link>http://localhost:1313/hugo-book/docs/required/engineering/process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/engineering/process/</guid>
+      <description>&lt;h1 id=&#34;process&#34;&gt;Process&lt;a class=&#34;anchor&#34; href=&#34;#process&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;“grinvites” repository in our Github organization: all issues, branches, and pull requests.&lt;/p&gt;&#xA;&lt;p&gt;Link: &lt;a href=&#34;https://github.com/social-won/grinvites&#34;&gt;https://github.com/social-won/grinvites&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;All teammates created GitHub issues, reviewed pull requests, and maintained different branches to manage workflow. As a group we built a process that kept code organized and minimized conflicts.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Our group used a standard GitHub workflow with branches and issues to manage and distribute work. At the start of the project, each person had their own branch tied to specific issues, which kept our work separate and made it easy to track who was responsible for what. As the project progressed and the codebase became more interconnected, we combined branches and began reviewing each other&amp;rsquo;s code more closely to make sure everything fit together. We held weekly group meetings where we discussed progress and assigned goals for the next session, and maintained consistent communication through a group chat. We also held smaller two-person meetings when teammates working on related components needed to discuss and integrate their work, which helped avoid conflicts and made sure things connected properly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prototyping</title>
+      <link>http://localhost:1313/hugo-book/docs/required/design/prototyping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/design/prototyping/</guid>
+      <description>&lt;h1 id=&#34;prototyping&#34;&gt;Prototyping&lt;a class=&#34;anchor&#34; href=&#34;#prototyping&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;“Prototype” folder in the group Google Drive, linked in the “team-wiki” repository.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I participated in the group discussions that shaped the prototype design. The sketches were drawn by one other teammate on their iPad. I also took part in the prototype presentation and in asking people for feedback on our sketches.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The main design questions we wanted to answer with our prototype were what the interface would look like and how users would respond to the event selection and preference setup. Since we were building something meant to be easy to set up, we needed to know whether the interface felt intuitive or overwhelming to a new user. We therefore intentionally kept the prototype design simple by limiting the amount of information on the screen at once, organizing the information into dropdown menus, and separating everything into only three tabs (Schedule, Hours, Preferences). We sketched a paper prototype covering the onboarding flow and the main page, showing what each of the three tabs would look like. One teammate then separately put the sketch together on his iPad.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testing Technologies</title>
+      <link>http://localhost:1313/hugo-book/docs/advanced/verification/testing-technologies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/advanced/verification/testing-technologies/</guid>
+      <description>&lt;h1 id=&#34;testing-technologies&#34;&gt;Testing Technologies&lt;a class=&#34;anchor&#34; href=&#34;#testing-technologies&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Collaboration</title>
+      <link>http://localhost:1313/hugo-book/docs/required/engineering/collaboration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/engineering/collaboration/</guid>
+      <description>&lt;h1 id=&#34;collaboration&#34;&gt;Collaboration&lt;a class=&#34;anchor&#34; href=&#34;#collaboration&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Pull requests #16, #18, #37, and #44 from “grinvites” repo in Github organization: &lt;a href=&#34;https://github.com/social-won/grinvites/pulls?q=is%3Apr&amp;#43;is%3Aclosed&#34;&gt;https://github.com/social-won/grinvites/pulls?q=is%3Apr+is%3Aclosed&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;All four instances were examples of my involvement in collaborative work with the team.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Instance 1: Filing a Pull Request (PR #16): This was my first pull request that introduced the initial scraper in scraper.py, which fetched event data from Grinnell’s events website and structured it as a dictionary carrying all the events. The difficulty here was making sure the data I was pulling contained the right attributes for the rest of the team to work with. Teammates working on the database and API needed to know what fields were available before they could build on top of it. Therefore, filing this PR served to give the team a look at what the scraper was producing and opened up a conversation about whether the data structure was right and whether it should be integrated with the database. There were no major collaboration difficulties at this stage, and the team told me that I was good to start putting the events into the database.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Evaluation</title>
+      <link>http://localhost:1313/hugo-book/docs/required/design/evaluation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/design/evaluation/</guid>
+      <description>&lt;h1 id=&#34;evaluation&#34;&gt;Evaluation&lt;a class=&#34;anchor&#34; href=&#34;#evaluation&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Evaluation document in the group Google Drive, linked in the “team-wiki” repository.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I conducted the user study alongside a partner, and I wrote the notes available in the document.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;To evaluate our app, a partner and I conducted a user study where we gave the participant basic context about the app in advance, that it was an invite-based app that linked to their calendar and lets them choose which campus events to hear from. We then watched them walk through the onboarding process without interfering, letting them interact with the app naturally while I noted where they paused or commented. After they finished, we followed up with questions about suggestions and things they&amp;rsquo;d want added.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>User Interface Design</title>
+      <link>http://localhost:1313/hugo-book/docs/advanced/design/ui-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/advanced/design/ui-design/</guid>
+      <description>&lt;h1 id=&#34;user-interface-design&#34;&gt;User Interface Design&lt;a class=&#34;anchor&#34; href=&#34;#user-interface-design&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Accessible Design</title>
+      <link>http://localhost:1313/hugo-book/docs/advanced/design/accessible-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/advanced/design/accessible-design/</guid>
+      <description>&lt;h1 id=&#34;accessible-design&#34;&gt;Accessible Design&lt;a class=&#34;anchor&#34; href=&#34;#accessible-design&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quality</title>
+      <link>http://localhost:1313/hugo-book/docs/advanced/engineering/quality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/advanced/engineering/quality/</guid>
+      <description>&lt;h1 id=&#34;quality&#34;&gt;Quality&lt;a class=&#34;anchor&#34; href=&#34;#quality&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

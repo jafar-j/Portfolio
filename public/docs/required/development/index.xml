@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Jafar&#39;s Portfolio</title>
+    <link>http://localhost:1313/hugo-book/docs/required/development/</link>
+    <description>Recent content in Development on Jafar&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright>
+    <atom:link href="http://localhost:1313/hugo-book/docs/required/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Medium-Scale Abstraction</title>
+      <link>http://localhost:1313/hugo-book/docs/required/development/abstraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/development/abstraction/</guid>
+      <description>&lt;h1 id=&#34;medium-scale-abstraction&#34;&gt;Medium-Scale Abstraction&lt;a class=&#34;anchor&#34; href=&#34;#medium-scale-abstraction&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Medium-Scale Architecture</title>
+      <link>http://localhost:1313/hugo-book/docs/required/development/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-book/docs/required/development/architecture/</guid>
+      <description>&lt;h1 id=&#34;medium-scale-architecture&#34;&gt;Medium-Scale Architecture&lt;a class=&#34;anchor&#34; href=&#34;#medium-scale-architecture&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;server/api/scraper.py&lt;/code&gt;, &lt;code&gt;server/api/db_functions.py&lt;/code&gt;, &lt;code&gt;server/api/sql_init.py&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I designed and implemented the scraping layer, initialized the events table in &lt;code&gt;sql_init.py&lt;/code&gt;, and wrote the &lt;code&gt;insert_events_into_db&lt;/code&gt; function in &lt;code&gt;db_functions.py&lt;/code&gt;. The rest of the database layer and the REST API were built by teammates.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The backend consists of a layered architecture, where each layer has a separate responsibility in the overall project. The scraping layer, built in scraper.py, fetches raw event data from Grinnell&amp;rsquo;s LiveWhale JSON API and transforms it into structured event dictionaries. From there, the events table defined in sql_init.py and the insert_events_into_db function in db_functions.py handle putting those events into the SQL database. There is a REST API layer built by my teammates which the frontend talks to via HTTP requests. The frontend and backend therefore do not interact directly, as they are connected through the REST API, keeping implementations separated on each side. The frontend focuses on user interaction and displaying events, while the backend handles event scraping, data processing, and storage. This separation means each side can be developed independently without affecting the other.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
