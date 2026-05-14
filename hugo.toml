@@ -4,7 +4,7 @@
 # hugo server --printPathWarnings --disableFastRender --cleanDestinationDir=true --logLevel=debug \
 # --gc -M -s exampleSite --themesDir ../.. -b http://127.0.0.1/
 
-baseURL = 'https://jafarjarrar.github.io/my-portfolio/'
+baseURL = 'https://jafar-j.github.io/my-portfolio/'
 title = "Jafar's Portfolio"
 theme = 'hugo-book'
 
