@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Verification on Jafar&#39;s Portfolio</title>
-    <link>http://0.0.0.0:1313/hugo-book/docs/required/verification/</link>
+    <link>https://jafar-j.github.io/my-portfolio/docs/required/verification/</link>
     <description>Recent content in Verification on Jafar&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright>
-    <atom:link href="http://0.0.0.0:1313/hugo-book/docs/required/verification/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jafar-j.github.io/my-portfolio/docs/required/verification/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing Strategies</title>
-      <link>http://0.0.0.0:1313/hugo-book/docs/required/verification/testing-strategies/</link>
+      <link>https://jafar-j.github.io/my-portfolio/docs/required/verification/testing-strategies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://0.0.0.0:1313/hugo-book/docs/required/verification/testing-strategies/</guid>
-      <description>&lt;h1 id=&#34;testing-strategies&#34;&gt;Testing Strategies&lt;a class=&#34;anchor&#34; href=&#34;#testing-strategies&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+      <guid>https://jafar-j.github.io/my-portfolio/docs/required/verification/testing-strategies/</guid>
+      <description>&lt;h1 id=&#34;testing-strategies&#34;&gt;Testing Strategies&lt;a class=&#34;anchor&#34; href=&#34;#testing-strategies&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;server/api/test_scraper.py, testing server/api/scraper.py&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I wrote the tests with the help of Codex, guiding it on what to test and reviewing the output.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The test suite for the scraper is split into two categories: basic tests and mock tests. The mock tests will be discussed in the Verification of the Advanced Competencies section. Each test runs against a temporary SQLite database that is completely separate from the real app database used. This was intentional, so that tests never interact with or change real app data and can be run safely by anyone on the team at any time without side effects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing Infrastructure</title>
-      <link>http://0.0.0.0:1313/hugo-book/docs/required/verification/testing-infrastructure/</link>
+      <link>https://jafar-j.github.io/my-portfolio/docs/required/verification/testing-infrastructure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://0.0.0.0:1313/hugo-book/docs/required/verification/testing-infrastructure/</guid>
-      <description>&lt;h1 id=&#34;testing-infrastructure&#34;&gt;Testing Infrastructure&lt;a class=&#34;anchor&#34; href=&#34;#testing-infrastructure&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+      <guid>https://jafar-j.github.io/my-portfolio/docs/required/verification/testing-infrastructure/</guid>
+      <description>&lt;h1 id=&#34;testing-infrastructure&#34;&gt;Testing Infrastructure&lt;a class=&#34;anchor&#34; href=&#34;#testing-infrastructure&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;server/api/test_scraper.py, Makefile, run via “make test-scraper” from the project root.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I wrote the tests in test_scraper with the help of Codex. A teammate created the Makefile to standardize how tests are run across the project, and I edited it to add a target for running my scraper tests.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The testing infrastructure for the scraper uses Python&amp;rsquo;s built-in unittest framework combined with pytest as the test runner. I added the test-scraper target to the makefile so that running “make test-scraper” from the project root executes my full test suite in one command, running both the basic and advanced tests in one go. A key part of my testing infrastructure is the ScraperDatabaseTestCase class in the test file. It handles setting up the database and tearing it down automatically for every test. It creates a new temporary SQLite database before each test and cleans it up afterward, thus ensuring that the tests are isolated and my teammates do not have to reset any database state between runs.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

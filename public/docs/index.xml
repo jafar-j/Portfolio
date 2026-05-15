@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Portfolio on Jafar&#39;s Portfolio</title>
-    <link>http://0.0.0.0:1313/hugo-book/docs/</link>
-    <description>Recent content in My Portfolio on Jafar&#39;s Portfolio</description>
+    <title>Jafar&#39;s Portfolio</title>
+    <link>https://jafar-j.github.io/my-portfolio/docs/</link>
+    <description>Recent content on Jafar&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright>
-    <atom:link href="http://0.0.0.0:1313/hugo-book/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jafar-j.github.io/my-portfolio/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

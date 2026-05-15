@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head><script src="/hugo-book/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-book/livereload" data-no-instant defer></script>
+<head><script src="/my-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=my-portfolio/livereload" data-no-instant defer></script>
   <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -8,41 +8,50 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Testing Infrastructure# Sample# Write your sample source here.
-Contributions# Write your contributions here.
-Description# Write your description here.
+<meta name="description" content="Testing Infrastructure# Sample# server/api/test_scraper.py, Makefile, run via “make test-scraper” from the project root.
+Contributions# I wrote the tests in test_scraper with the help of Codex. A teammate created the Makefile to standardize how tests are run across the project, and I edited it to add a target for running my scraper tests.
+Description# The testing infrastructure for the scraper uses Python’s built-in unittest framework combined with pytest as the test runner. I added the test-scraper target to the makefile so that running “make test-scraper” from the project root executes my full test suite in one command, running both the basic and advanced tests in one go. A key part of my testing infrastructure is the ScraperDatabaseTestCase class in the test file. It handles setting up the database and tearing it down automatically for every test. It creates a new temporary SQLite database before each test and cleans it up afterward, thus ensuring that the tests are isolated and my teammates do not have to reset any database state between runs.
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/hugo-book/docs/required/verification/testing-infrastructure/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/my-portfolio/docs/required/verification/testing-infrastructure/">
   <meta property="og:site_name" content="Jafar&#39;s Portfolio">
   <meta property="og:title" content="Testing Infrastructure">
-  <meta property="og:description" content="Testing Infrastructure# Sample# Write your sample source here.
-Contributions# Write your contributions here.
-Description# Write your description here.">
+  <meta property="og:description" content="Testing Infrastructure# Sample# server/api/test_scraper.py, Makefile, run via “make test-scraper” from the project root.
+Contributions# I wrote the tests in test_scraper with the help of Codex. A teammate created the Makefile to standardize how tests are run across the project, and I edited it to add a target for running my scraper tests.
+Description# The testing infrastructure for the scraper uses Python’s built-in unittest framework combined with pytest as the test runner. I added the test-scraper target to the makefile so that running “make test-scraper” from the project root executes my full test suite in one command, running both the basic and advanced tests in one go. A key part of my testing infrastructure is the ScraperDatabaseTestCase class in the test file. It handles setting up the database and tearing it down automatically for every test. It creates a new temporary SQLite database before each test and cleans it up afterward, thus ensuring that the tests are isolated and my teammates do not have to reset any database state between runs.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
+    <meta property="article:modified_time" content="2026-05-14T06:03:03-05:00">
 
 
   <meta itemprop="name" content="Testing Infrastructure">
-  <meta itemprop="description" content="Testing Infrastructure# Sample# Write your sample source here.
-Contributions# Write your contributions here.
-Description# Write your description here.">
-  <meta itemprop="wordCount" content="18">
+  <meta itemprop="description" content="Testing Infrastructure# Sample# server/api/test_scraper.py, Makefile, run via “make test-scraper” from the project root.
+Contributions# I wrote the tests in test_scraper with the help of Codex. A teammate created the Makefile to standardize how tests are run across the project, and I edited it to add a target for running my scraper tests.
+Description# The testing infrastructure for the scraper uses Python’s built-in unittest framework combined with pytest as the test runner. I added the test-scraper target to the makefile so that running “make test-scraper” from the project root executes my full test suite in one command, running both the basic and advanced tests in one go. A key part of my testing infrastructure is the ScraperDatabaseTestCase class in the test file. It handles setting up the database and tearing it down automatically for every test. It creates a new temporary SQLite database before each test and cleans it up afterward, thus ensuring that the tests are isolated and my teammates do not have to reset any database state between runs.">
+  <meta itemprop="dateModified" content="2026-05-14T06:03:03-05:00">
+  <meta itemprop="wordCount" content="271">
 
 <title>Testing Infrastructure | Jafar&#39;s Portfolio</title>
-<link rel="icon" href="/hugo-book/favicon.png" >
-<link rel="manifest" href="/hugo-book/manifest.json">
-<link rel="canonical" href="http://localhost:1313/hugo-book/docs/required/verification/testing-infrastructure/">
-<link rel="stylesheet" href="/hugo-book/book.min.765d21810b9b2cd2a1694752026da1f9282c504e7ae862b8c2eca7063f8349ba.css" integrity="sha256-dl0hgQubLNKhaUdSAm2h&#43;SgsUE566GK4wuynBj&#43;DSbo=" crossorigin="anonymous">
-
-
-  <script defer src="/hugo-book/sw.min.b360770147212804e7e1d018a0a381039fc15d15bcef077b10e92b395969f8b4.js" integrity="sha256-s2B3AUchKATn4dAYoKOBA5/BXRW87wd7EOkrOVlp&#43;LQ=" crossorigin="anonymous"></script>
+<link rel="icon" href="/my-portfolio/favicon.png" >
+<link rel="manifest" href="/my-portfolio/manifest.json">
+<link rel="canonical" href="http://localhost:1313/my-portfolio/docs/required/verification/testing-infrastructure/">
+<link rel="stylesheet" href="/my-portfolio/book.min.02d0c92b3b374be167d34e7542e5baaba04427f3d4f15f3cc1d0bfbb5d8c0cd4.css" integrity="sha256-AtDJKzs3S&#43;Fn0051QuW6q6BEJ/PU8V88wdC/u12MDNQ=" crossorigin="anonymous">
 
 
 
-  
+
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function (registrations) {
+      registrations.forEach(function (registration) {
+        registration.unregister();
+      });
+    });
+  }
+</script>
+
 </head>
 <body dir="ltr" class="book-kind-page book-type-docs">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
@@ -54,7 +63,7 @@ Description# Write your description here.">
     
   <nav>
 <h2 class="book-brand">
-  <a class="flex align-center" href="/hugo-book/"><span>Jafar&#39;s Portfolio</span>
+  <a class="flex align-center" href="/my-portfolio/"><span>Jafar&#39;s Portfolio</span>
   </a>
 </h2>
 
@@ -109,7 +118,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/development/abstraction/" class="">
+    <a href="/my-portfolio/docs/required/development/abstraction/" class="">
       Medium-Scale Abstraction</a>
   
 
@@ -123,7 +132,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/development/architecture/" class="">
+    <a href="/my-portfolio/docs/required/development/architecture/" class="">
       Medium-Scale Architecture</a>
   
 
@@ -156,7 +165,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/verification/testing-strategies/" class="">
+    <a href="/my-portfolio/docs/required/verification/testing-strategies/" class="">
       Testing Strategies</a>
   
 
@@ -170,7 +179,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/verification/testing-infrastructure/" class="active">
+    <a href="/my-portfolio/docs/required/verification/testing-infrastructure/" class="active">
       Testing Infrastructure</a>
   
 
@@ -203,7 +212,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/design/needfinding/" class="">
+    <a href="/my-portfolio/docs/required/design/needfinding/" class="">
       Needfinding</a>
   
 
@@ -217,7 +226,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/design/ideation/" class="">
+    <a href="/my-portfolio/docs/required/design/ideation/" class="">
       Ideation</a>
   
 
@@ -231,7 +240,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/design/prototyping/" class="">
+    <a href="/my-portfolio/docs/required/design/prototyping/" class="">
       Prototyping</a>
   
 
@@ -245,7 +254,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/design/evaluation/" class="">
+    <a href="/my-portfolio/docs/required/design/evaluation/" class="">
       Evaluation</a>
   
 
@@ -278,7 +287,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/engineering/infrastructure/" class="">
+    <a href="/my-portfolio/docs/required/engineering/infrastructure/" class="">
       Infrastructure</a>
   
 
@@ -292,7 +301,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/engineering/self-learning/" class="">
+    <a href="/my-portfolio/docs/required/engineering/self-learning/" class="">
       Self-Learning</a>
   
 
@@ -306,7 +315,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/engineering/process/" class="">
+    <a href="/my-portfolio/docs/required/engineering/process/" class="">
       Process</a>
   
 
@@ -320,7 +329,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/required/engineering/collaboration/" class="">
+    <a href="/my-portfolio/docs/required/engineering/collaboration/" class="">
       Collaboration</a>
   
 
@@ -359,53 +368,6 @@ Description# Write your description here.">
 
   
     <a>
-      Development</a>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/hugo-book/docs/advanced/development/domain-architecture/" class="">
-      Domain-Specific Architecture</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/hugo-book/docs/advanced/development/security/" class="">
-      Security</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a>
       Verification</a>
   
 
@@ -419,7 +381,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/advanced/verification/testing-technologies/" class="">
+    <a href="/my-portfolio/docs/advanced/verification/testing-technologies/" class="">
       Testing Technologies</a>
   
 
@@ -452,22 +414,8 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/advanced/design/ui-design/" class="">
+    <a href="/my-portfolio/docs/advanced/design/ui-design/" class="">
       User Interface Design</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/hugo-book/docs/advanced/design/accessible-design/" class="">
-      Accessible Design</a>
   
 
         </li>
@@ -499,7 +447,7 @@ Description# Write your description here.">
   
 
   
-    <a href="/hugo-book/docs/advanced/engineering/quality/" class="">
+    <a href="/my-portfolio/docs/advanced/engineering/quality/" class="">
       Quality</a>
   
 
@@ -548,7 +496,7 @@ Description# Write your description here.">
         
   <div class="flex align-center justify-between">
   <label for="menu-control">
-    <img src="/hugo-book/icons/menu.svg" class="book-icon" alt="Menu" />
+    <img src="/my-portfolio/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
   <h3>Testing Infrastructure</h3>
@@ -567,11 +515,12 @@ Description# Write your description here.">
       
   <article class="markdown book-article"><h1 id="testing-infrastructure">Testing Infrastructure<a class="anchor" href="#testing-infrastructure">#</a></h1>
 <h2 id="sample">Sample<a class="anchor" href="#sample">#</a></h2>
-<p>Write your sample source here.</p>
+<p>server/api/test_scraper.py, Makefile, run via “make test-scraper” from the project root.</p>
 <h2 id="contributions">Contributions<a class="anchor" href="#contributions">#</a></h2>
-<p>Write your contributions here.</p>
+<p>I wrote the tests in test_scraper with the help of Codex. A teammate created the Makefile to standardize how tests are run across the project, and I edited it to add a target for running my scraper tests.</p>
 <h2 id="description">Description<a class="anchor" href="#description">#</a></h2>
-<p>Write your description here.</p>
+<p>The testing infrastructure for the scraper uses Python&rsquo;s built-in unittest framework combined with pytest as the test runner. I added the test-scraper target to the makefile so that running “make test-scraper” from the project root executes my full test suite in one command, running both the basic and advanced tests in one go. A key part of my testing infrastructure is the ScraperDatabaseTestCase class in the test file. It handles setting up the database and tearing it down automatically for every test. It creates a new temporary SQLite database before each test and cleans it up afterward, thus ensuring that the tests are isolated and my teammates do not have to reset any database state between runs.</p>
+<p>A specific instance where the testing helped identify an issue and saved the team some work was when a test caught that events were being successfully written to the database but the creation_time_stamp field within them was coming back empty. This was not visible through basic print testing since we had forgotten to print that field, and the rest of the event data looked correct. The unit test flagged it by asserting that the field was non-empty, and once identified it was a straightforward fix that would have caused issues with sending ics file invites down the line if left undetected.</p>
 </article>
  
       
@@ -600,17 +549,17 @@ Description# Write your description here.">
   <div class="flex flex-wrap justify-between">
     <span>
     
-      <a href="/hugo-book/docs/required/verification/testing-strategies/" class="flex align-center">
-        <img src="/hugo-book/icons/backward.svg" class="book-icon" alt="Backward" />
+      <a href="/my-portfolio/docs/required/verification/testing-strategies/" class="flex align-center">
+        <img src="/my-portfolio/icons/backward.svg" class="book-icon" alt="Backward" />
         <span>Testing Strategies</span>
       </a>
     
     </span>
     <span>
     
-      <a href="/hugo-book/docs/required/design/needfinding/" class="flex align-center">
+      <a href="/my-portfolio/docs/required/design/needfinding/" class="flex align-center">
         <span>Needfinding</span>
-        <img src="/hugo-book/icons/forward.svg" class="book-icon" alt="Forward" />
+        <img src="/my-portfolio/icons/forward.svg" class="book-icon" alt="Forward" />
       </a>
     
     </span>

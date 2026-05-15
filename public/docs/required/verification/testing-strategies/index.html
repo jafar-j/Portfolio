@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head><script src="/hugo-book/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-book/livereload" data-no-instant defer></script>
+<head><script src="/my-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=my-portfolio/livereload" data-no-instant defer></script>
   <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -8,34 +8,50 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Testing Strategies#">
+<meta name="description" content="Testing Strategies# Sample# server/api/test_scraper.py, testing server/api/scraper.py
+Contributions# I wrote the tests with the help of Codex, guiding it on what to test and reviewing the output.
+Description# The test suite for the scraper is split into two categories: basic tests and mock tests. The mock tests will be discussed in the Verification of the Advanced Competencies section. Each test runs against a temporary SQLite database that is completely separate from the real app database used. This was intentional, so that tests never interact with or change real app data and can be run safely by anyone on the team at any time without side effects.
+">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/hugo-book/docs/required/verification/testing-strategies/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/my-portfolio/docs/required/verification/testing-strategies/">
   <meta property="og:site_name" content="Jafar&#39;s Portfolio">
   <meta property="og:title" content="Testing Strategies">
-  <meta property="og:description" content="Testing Strategies#">
+  <meta property="og:description" content="Testing Strategies# Sample# server/api/test_scraper.py, testing server/api/scraper.py
+Contributions# I wrote the tests with the help of Codex, guiding it on what to test and reviewing the output.
+Description# The test suite for the scraper is split into two categories: basic tests and mock tests. The mock tests will be discussed in the Verification of the Advanced Competencies section. Each test runs against a temporary SQLite database that is completely separate from the real app database used. This was intentional, so that tests never interact with or change real app data and can be run safely by anyone on the team at any time without side effects.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
+    <meta property="article:modified_time" content="2026-05-14T06:03:03-05:00">
 
 
   <meta itemprop="name" content="Testing Strategies">
-  <meta itemprop="description" content="Testing Strategies#">
-  <meta itemprop="wordCount" content="2">
+  <meta itemprop="description" content="Testing Strategies# Sample# server/api/test_scraper.py, testing server/api/scraper.py
+Contributions# I wrote the tests with the help of Codex, guiding it on what to test and reviewing the output.
+Description# The test suite for the scraper is split into two categories: basic tests and mock tests. The mock tests will be discussed in the Verification of the Advanced Competencies section. Each test runs against a temporary SQLite database that is completely separate from the real app database used. This was intentional, so that tests never interact with or change real app data and can be run safely by anyone on the team at any time without side effects.">
+  <meta itemprop="dateModified" content="2026-05-14T06:03:03-05:00">
+  <meta itemprop="wordCount" content="306">
 
 <title>Testing Strategies | Jafar&#39;s Portfolio</title>
-<link rel="icon" href="/hugo-book/favicon.png" >
-<link rel="manifest" href="/hugo-book/manifest.json">
-<link rel="canonical" href="http://localhost:1313/hugo-book/docs/required/verification/testing-strategies/">
-<link rel="stylesheet" href="/hugo-book/book.min.765d21810b9b2cd2a1694752026da1f9282c504e7ae862b8c2eca7063f8349ba.css" integrity="sha256-dl0hgQubLNKhaUdSAm2h&#43;SgsUE566GK4wuynBj&#43;DSbo=" crossorigin="anonymous">
-
-
-  <script defer src="/hugo-book/sw.min.b360770147212804e7e1d018a0a381039fc15d15bcef077b10e92b395969f8b4.js" integrity="sha256-s2B3AUchKATn4dAYoKOBA5/BXRW87wd7EOkrOVlp&#43;LQ=" crossorigin="anonymous"></script>
+<link rel="icon" href="/my-portfolio/favicon.png" >
+<link rel="manifest" href="/my-portfolio/manifest.json">
+<link rel="canonical" href="http://localhost:1313/my-portfolio/docs/required/verification/testing-strategies/">
+<link rel="stylesheet" href="/my-portfolio/book.min.02d0c92b3b374be167d34e7542e5baaba04427f3d4f15f3cc1d0bfbb5d8c0cd4.css" integrity="sha256-AtDJKzs3S&#43;Fn0051QuW6q6BEJ/PU8V88wdC/u12MDNQ=" crossorigin="anonymous">
 
 
 
-  
+
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function (registrations) {
+      registrations.forEach(function (registration) {
+        registration.unregister();
+      });
+    });
+  }
+</script>
+
 </head>
 <body dir="ltr" class="book-kind-page book-type-docs">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
@@ -47,7 +63,7 @@ https://github.com/alex-shpak/hugo-book
     
   <nav>
 <h2 class="book-brand">
-  <a class="flex align-center" href="/hugo-book/"><span>Jafar&#39;s Portfolio</span>
+  <a class="flex align-center" href="/my-portfolio/"><span>Jafar&#39;s Portfolio</span>
   </a>
 </h2>
 
@@ -102,7 +118,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/development/abstraction/" class="">
+    <a href="/my-portfolio/docs/required/development/abstraction/" class="">
       Medium-Scale Abstraction</a>
   
 
@@ -116,7 +132,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/development/architecture/" class="">
+    <a href="/my-portfolio/docs/required/development/architecture/" class="">
       Medium-Scale Architecture</a>
   
 
@@ -149,7 +165,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/verification/testing-strategies/" class="active">
+    <a href="/my-portfolio/docs/required/verification/testing-strategies/" class="active">
       Testing Strategies</a>
   
 
@@ -163,7 +179,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/verification/testing-infrastructure/" class="">
+    <a href="/my-portfolio/docs/required/verification/testing-infrastructure/" class="">
       Testing Infrastructure</a>
   
 
@@ -196,7 +212,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/design/needfinding/" class="">
+    <a href="/my-portfolio/docs/required/design/needfinding/" class="">
       Needfinding</a>
   
 
@@ -210,7 +226,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/design/ideation/" class="">
+    <a href="/my-portfolio/docs/required/design/ideation/" class="">
       Ideation</a>
   
 
@@ -224,7 +240,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/design/prototyping/" class="">
+    <a href="/my-portfolio/docs/required/design/prototyping/" class="">
       Prototyping</a>
   
 
@@ -238,7 +254,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/design/evaluation/" class="">
+    <a href="/my-portfolio/docs/required/design/evaluation/" class="">
       Evaluation</a>
   
 
@@ -271,7 +287,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/engineering/infrastructure/" class="">
+    <a href="/my-portfolio/docs/required/engineering/infrastructure/" class="">
       Infrastructure</a>
   
 
@@ -285,7 +301,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/engineering/self-learning/" class="">
+    <a href="/my-portfolio/docs/required/engineering/self-learning/" class="">
       Self-Learning</a>
   
 
@@ -299,7 +315,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/engineering/process/" class="">
+    <a href="/my-portfolio/docs/required/engineering/process/" class="">
       Process</a>
   
 
@@ -313,7 +329,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/required/engineering/collaboration/" class="">
+    <a href="/my-portfolio/docs/required/engineering/collaboration/" class="">
       Collaboration</a>
   
 
@@ -352,53 +368,6 @@ https://github.com/alex-shpak/hugo-book
 
   
     <a>
-      Development</a>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/hugo-book/docs/advanced/development/domain-architecture/" class="">
-      Domain-Specific Architecture</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/hugo-book/docs/advanced/development/security/" class="">
-      Security</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a>
       Verification</a>
   
 
@@ -412,7 +381,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/advanced/verification/testing-technologies/" class="">
+    <a href="/my-portfolio/docs/advanced/verification/testing-technologies/" class="">
       Testing Technologies</a>
   
 
@@ -445,22 +414,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/advanced/design/ui-design/" class="">
+    <a href="/my-portfolio/docs/advanced/design/ui-design/" class="">
       User Interface Design</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/hugo-book/docs/advanced/design/accessible-design/" class="">
-      Accessible Design</a>
   
 
         </li>
@@ -492,7 +447,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/hugo-book/docs/advanced/engineering/quality/" class="">
+    <a href="/my-portfolio/docs/advanced/engineering/quality/" class="">
       Quality</a>
   
 
@@ -541,7 +496,7 @@ https://github.com/alex-shpak/hugo-book
         
   <div class="flex align-center justify-between">
   <label for="menu-control">
-    <img src="/hugo-book/icons/menu.svg" class="book-icon" alt="Menu" />
+    <img src="/my-portfolio/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
   <h3>Testing Strategies</h3>
@@ -559,6 +514,14 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown book-article"><h1 id="testing-strategies">Testing Strategies<a class="anchor" href="#testing-strategies">#</a></h1>
+<h2 id="sample">Sample<a class="anchor" href="#sample">#</a></h2>
+<p>server/api/test_scraper.py, testing server/api/scraper.py</p>
+<h2 id="contributions">Contributions<a class="anchor" href="#contributions">#</a></h2>
+<p>I wrote the tests with the help of Codex, guiding it on what to test and reviewing the output.</p>
+<h2 id="description">Description<a class="anchor" href="#description">#</a></h2>
+<p>The test suite for the scraper is split into two categories: basic tests and mock tests. The mock tests will be discussed in the Verification of the Advanced Competencies section. Each test runs against a temporary SQLite database that is completely separate from the real app database used. This was intentional, so that tests never interact with or change real app data and can be run safely by anyone on the team at any time without side effects.</p>
+<p>The basic tests run and test each of the scraper&rsquo;s individual helper functions in isolation: clean_text, clean_html, sanitize_name, and occurance_finder. Each test verifies that the helper produces the correct output for a given input. For example, one test labelled “test_text_cleaning_removes_extra_whitespace” confirms that extra spaces, tabs, and newlines are collapsed into a single clean string so that event attributes like titles, locations, and organization names are stored in the database in a consistent, readable format. Another test labelled “test_html_cleaning_removes_tags_and_handles_empty_html” checks that HTML markup is stripped correctly and that retrieving None through the scraped data returns an empty string rather than crashing. This edge case was important to be tested as not all events in the LiveWhale API include a summary. There is also a live integration test, “test_real_scraper_populates_database_with_live_events”, which calls the real scraper against the actual Grinnell API and checks that events are returned and written to the temporary SQLite database. This test is also skipped automatically if the API is not working.</p>
+<p>The functions not covered by tests are get_interest_id and add_event_interest, which handle linking events to interests in the database. These were written by teammates as part of the broader database layer, so I did not include tests for them.</p>
 </article>
  
       
@@ -587,17 +550,17 @@ https://github.com/alex-shpak/hugo-book
   <div class="flex flex-wrap justify-between">
     <span>
     
-      <a href="/hugo-book/docs/required/development/architecture/" class="flex align-center">
-        <img src="/hugo-book/icons/backward.svg" class="book-icon" alt="Backward" />
+      <a href="/my-portfolio/docs/required/development/architecture/" class="flex align-center">
+        <img src="/my-portfolio/icons/backward.svg" class="book-icon" alt="Backward" />
         <span>Medium-Scale Architecture</span>
       </a>
     
     </span>
     <span>
     
-      <a href="/hugo-book/docs/required/verification/testing-infrastructure/" class="flex align-center">
+      <a href="/my-portfolio/docs/required/verification/testing-infrastructure/" class="flex align-center">
         <span>Testing Infrastructure</span>
-        <img src="/hugo-book/icons/forward.svg" class="book-icon" alt="Forward" />
+        <img src="/my-portfolio/icons/forward.svg" class="book-icon" alt="Forward" />
       </a>
     
     </span>

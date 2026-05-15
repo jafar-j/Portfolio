@@ -135,3 +135,138 @@ body {
     border-inline-start-color: #4a90e2;
   }
 }
+
+.ui-design-gallery {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 42%;
+  max-width: 28rem;
+  margin: 0 0 1.5rem 2rem;
+}
+
+.ui-design-gallery figure {
+  margin: 0;
+}
+
+.ui-design-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #46576b;
+  border-radius: 0.35rem;
+  background: white;
+}
+
+.ui-design-gallery figcaption {
+  margin-top: 0.4rem;
+  color: #b8c4d2;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 70rem) {
+  .ui-design-gallery {
+    float: none;
+    width: 100%;
+    margin: 0 0 1.5rem;
+  }
+}
+
+.portfolio-landing {
+  max-width: 58rem;
+  padding: 4.5rem 0 3rem;
+}
+
+.portfolio-landing__hero {
+  max-width: 46rem;
+}
+
+.portfolio-landing__eyebrow {
+  margin: 0 0 0.85rem;
+  color: #8fb8f0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.portfolio-landing h1 {
+  margin: 0;
+  color: #f3f7fb;
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 0.98;
+}
+
+.portfolio-landing__intro {
+  max-width: 43rem;
+  margin: 1.35rem 0 0;
+  color: #c5d0dc;
+  font-size: 1.25rem;
+  line-height: 1.65;
+}
+
+.portfolio-landing__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 2rem;
+}
+
+.portfolio-landing__button,
+.portfolio-landing__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0 1.15rem;
+  border-radius: 0.35rem;
+  font-weight: 700;
+}
+
+.portfolio-landing__button {
+  background: #4a90e2;
+  color: #08111c;
+}
+
+.portfolio-landing__link {
+  border: 1px solid #405064;
+  color: #dce3eb;
+}
+
+.portfolio-landing__guide {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.portfolio-landing__guide section {
+  border-top: 1px solid #405064;
+  padding-top: 1rem;
+}
+
+.portfolio-landing__guide h2 {
+  margin: 0;
+  color: #f3f7fb;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.portfolio-landing__guide p {
+  margin: 0.55rem 0 0;
+  color: #b8c4d2;
+  line-height: 1.55;
+}
+
+@media screen and (max-width: 48rem) {
+  .portfolio-landing h1 {
+    font-size: 2.65rem;
+  }
+
+  .portfolio-landing__guide {
+    grid-template-columns: 1fr;
+    margin-top: 3.5rem;
+  }
+}

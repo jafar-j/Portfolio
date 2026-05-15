@@ -9,6 +9,8 @@ weight: 30
 
 “Prototype” folder in the group Google Drive, linked in the “team-wiki” repository.
 
+Link to folder: https://drive.google.com/drive/folders/1JiOInlEm958P6QBu19CgWXZClNE2s_Mz?usp=sharing 
+
 ## Contributions
 
 I participated in the group discussions that shaped the prototype design. The sketches were drawn by one other teammate on their iPad. I also took part in the prototype presentation and in asking people for feedback on our sketches.

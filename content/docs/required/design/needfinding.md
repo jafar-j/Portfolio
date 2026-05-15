@@ -9,6 +9,10 @@ weight: 10
 
 “324 Needfinding questions” and “Personas” documents in the group Google Drive folder, linked in the “team-wiki” repository. Specifically my tab for Needfinding within the “324 Needfinding questions” document.
 
+Link to my tab within Needfinding document: https://docs.google.com/document/d/1e7Rb9ovlqiQjOyrN_93gbva63WzRdtEEraD2t6YJD_4/edit?tab=t.lhevaq28biz1 
+
+Link to personas document: https://docs.google.com/document/d/19w52fWpX0t3wEKdNL1VvrdkxwhNqq37A8vfWK1ECwt0/edit?usp=sharing 
+
 ## Contributions
 
 I participated in developing the Needfinding questions, conducting interviews, and developing the personas alongside my teammates.

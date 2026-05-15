@@ -2,71 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/advanced/development/</loc>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/development/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/development/</loc>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/engineering/infrastructure/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/advanced/development/domain-architecture/</loc>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/development/abstraction/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/engineering/infrastructure/</loc>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/design/needfinding/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/development/abstraction/</loc>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/design/needfinding/</loc>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/verification/testing-strategies/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/</loc>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/advanced/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/verification/testing-strategies/</loc>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/design/ideation/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/advanced/</loc>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/development/architecture/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/engineering/self-learning/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/verification/testing-infrastructure/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/advanced/verification/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/verification/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/advanced/design/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/design/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/engineering/process/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/design/prototyping/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/advanced/verification/testing-technologies/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/engineering/collaboration/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/advanced/engineering/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/engineering/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/required/design/evaluation/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/advanced/design/ui-design/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/advanced/engineering/quality/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/categories/</loc>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/</loc>
+    <lastmod>2026-05-14T06:03:03-05:00</lastmod>
+  </url><url>
+    <loc>https://jafar-j.github.io/my-portfolio/docs/</loc>
     <lastmod>2026-05-13T02:40:23-05:00</lastmod>
   </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/design/ideation/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/development/architecture/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/advanced/development/security/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/engineering/self-learning/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/verification/testing-infrastructure/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/advanced/verification/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/verification/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/advanced/design/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/design/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/engineering/process/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/design/prototyping/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/advanced/verification/testing-technologies/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/engineering/collaboration/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/advanced/engineering/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/engineering/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/required/design/evaluation/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/advanced/design/ui-design/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/advanced/design/accessible-design/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/advanced/engineering/quality/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/categories/</loc>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/</loc>
-    <lastmod>2026-05-13T02:40:23-05:00</lastmod>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/docs/</loc>
-    <lastmod>2026-05-13T02:40:23-05:00</lastmod>
-  </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/tags/</loc>
+    <loc>https://jafar-j.github.io/my-portfolio/tags/</loc>
   </url>
 </urlset>

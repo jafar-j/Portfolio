@@ -9,6 +9,8 @@ weight: 20
 
 "App Features" document in the group Google Drive, linked in the “team-wiki” repository.
 
+Link to document: https://docs.google.com/document/d/1Fm_pdkO9_8vNr6KZijmISizzLUZu5xF6bz0lKRVNOfk/edit?usp=sharing 
+
 ## Contributions
 
 I participated in the ideation discussions with my teammates.

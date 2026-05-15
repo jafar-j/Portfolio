@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Verification on Jafar&#39;s Portfolio</title>
-    <link>http://0.0.0.0:1313/hugo-book/docs/advanced/verification/</link>
+    <link>https://jafar-j.github.io/my-portfolio/docs/advanced/verification/</link>
     <description>Recent content in Verification on Jafar&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright>
-    <atom:link href="http://0.0.0.0:1313/hugo-book/docs/advanced/verification/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jafar-j.github.io/my-portfolio/docs/advanced/verification/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing Technologies</title>
-      <link>http://0.0.0.0:1313/hugo-book/docs/advanced/verification/testing-technologies/</link>
+      <link>https://jafar-j.github.io/my-portfolio/docs/advanced/verification/testing-technologies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://0.0.0.0:1313/hugo-book/docs/advanced/verification/testing-technologies/</guid>
-      <description>&lt;h1 id=&#34;testing-technologies&#34;&gt;Testing Technologies&lt;a class=&#34;anchor&#34; href=&#34;#testing-technologies&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+      <guid>https://jafar-j.github.io/my-portfolio/docs/advanced/verification/testing-technologies/</guid>
+      <description>&lt;h1 id=&#34;testing-technologies&#34;&gt;Testing Technologies&lt;a class=&#34;anchor&#34; href=&#34;#testing-technologies&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;server/api/test_scraper.py&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;I wrote the mock tests with the help of Codex, guiding it on what to test and reviewing the output.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The advanced testing technique used in my test suite is mock testing, implemented through Python&amp;rsquo;s unittest.mock library. Mock testing allows the tests to replace the real LiveWhale API with a controlled fake API, so that the scraper pipeline can be tested in full without depending on the network or current campus event data. This acts as a great baseline test for the scraper because the real events in the LiveWhale API change daily, so every time we test the scraper, different events are returned. This is a factor outside of our control and thus making the real API unreliable as a base test.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

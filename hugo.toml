@@ -29,30 +29,9 @@ contentDir = 'content'
 
 [menu]
 [[menu.home]]
-  name = 'Documentation'
-  pageRef = '/docs/example/'
+  name = 'Competencies'
+  pageRef = '/docs/'
   weight = 1
-
-[[menu.home]]
-  pageRef = '/docs/example/'
-  weight = 10
-  parent = 'Documentation'
-
-[[menu.home]]
-  name = 'Shortcodes'
-  pageRef = '/docs/shortcodes/buttons/'
-  weight = 20
-  parent = 'Documentation'
-
-[[menu.home]]
-  name = 'Showcases'
-  pageRef = '/showcases/'
-  weight = 2
-
-[[menu.home]]
-  name = 'Github'
-  url = 'https://github.com/alex-shpak/hugo-book/'
-  weight = 3
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -84,7 +63,7 @@ contentDir = 'content'
   # (Optional, default none) Set template for commit link for the page. Requires enableGitInfo.
   # When set enabled 'Last Modified' and a link to the commit in the footer of the page.
   # Param is executed as template using .Site, .Page and .GitInfo as context.
-  BookLastChangeLink = '{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}'
+  BookLastChangeLink = ''
 
   # (Optional, default none) Set template for edit page link.
   # When set enabled 'Edit this page' link in the footer of the page.
@@ -119,7 +98,7 @@ contentDir = 'content'
   # (Optional, experimental, default false)
   # When set to 'preache' it enables a service worker that caches visited pages and resources for offline use.
   # Possible values are false | true | 'precache'
-  BookServiceWorker = 'precache'
+  BookServiceWorker = false
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.

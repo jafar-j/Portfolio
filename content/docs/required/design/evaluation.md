@@ -9,6 +9,8 @@ weight: 40
 
 Evaluation document in the group Google Drive, linked in the “team-wiki” repository.
 
+Link to document: https://docs.google.com/document/d/117JyhSBu_EP2JeMWRSLSvm24fV1AVD3HdXLqNOh42Ac/edit?usp=sharing 
+
 ## Contributions
 
 I conducted the user study alongside a partner, and I wrote the notes available in the document.

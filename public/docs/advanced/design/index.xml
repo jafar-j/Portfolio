@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on Jafar&#39;s Portfolio</title>
-    <link>http://0.0.0.0:1313/hugo-book/docs/advanced/design/</link>
+    <link>https://jafar-j.github.io/my-portfolio/docs/advanced/design/</link>
     <description>Recent content in Design on Jafar&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)</copyright>
-    <atom:link href="http://0.0.0.0:1313/hugo-book/docs/advanced/design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jafar-j.github.io/my-portfolio/docs/advanced/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>User Interface Design</title>
-      <link>http://0.0.0.0:1313/hugo-book/docs/advanced/design/ui-design/</link>
+      <link>https://jafar-j.github.io/my-portfolio/docs/advanced/design/ui-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://0.0.0.0:1313/hugo-book/docs/advanced/design/ui-design/</guid>
-      <description>&lt;h1 id=&#34;user-interface-design&#34;&gt;User Interface Design&lt;a class=&#34;anchor&#34; href=&#34;#user-interface-design&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Accessible Design</title>
-      <link>http://0.0.0.0:1313/hugo-book/docs/advanced/design/accessible-design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://0.0.0.0:1313/hugo-book/docs/advanced/design/accessible-design/</guid>
-      <description>&lt;h1 id=&#34;accessible-design&#34;&gt;Accessible Design&lt;a class=&#34;anchor&#34; href=&#34;#accessible-design&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your sample source here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;a class=&#34;anchor&#34; href=&#34;#contributions&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your contributions here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;description&#34;&gt;Description&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Write your description here.&lt;/p&gt;</description>
+      <guid>https://jafar-j.github.io/my-portfolio/docs/advanced/design/ui-design/</guid>
+      <description>&lt;h1 id=&#34;user-interface-design&#34;&gt;User Interface Design&lt;a class=&#34;anchor&#34; href=&#34;#user-interface-design&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;aside class=&#34;ui-design-gallery&#34; aria-label=&#34;Introduction page design versions&#34;&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;../../../../images/ui-design/version-1.webp&#34; alt=&#34;First version of the Grinvites introduction page&#34;&gt;&#xA;    &lt;figcaption&gt;Version 1&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;../../../../images/ui-design/version-2.png&#34; alt=&#34;Second version of the Grinvites introduction page with community cards&#34;&gt;&#xA;    &lt;figcaption&gt;Version 2&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;../../../../images/ui-design/version-3.webp&#34; alt=&#34;Third version of the Grinvites introduction page with three setup steps&#34;&gt;&#xA;    &lt;figcaption&gt;Version 3&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;../../../../images/ui-design/version-4.webp&#34; alt=&#34;Final version of the Grinvites introduction page&#34;&gt;&#xA;    &lt;figcaption&gt;Version 4&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/aside&gt;&#xA;&lt;h2 id=&#34;sample&#34;&gt;Sample&lt;a class=&#34;anchor&#34; href=&#34;#sample&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Introduction page component that is loaded after the landing page and before the email sign up page. Specific file: &lt;code&gt;web/src/components/get-started-page.tsx&lt;/code&gt;. All alternative design versions of the introduction page are shown in the images to the right.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
